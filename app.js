@@ -14,6 +14,8 @@ const argv = yargs
 	.alias('help', 'h')
 	.argv;
 
+console.log(argv);
+
 request({
 	url: 'https://maps.googleapis.com/maps/api/geocode/json?address=1301%20lombard%20philadelphia&key=AIzaSyDKrHnCompmZxME-PpqnsTYiZjGEWdg10k',
 	json: true
