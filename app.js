@@ -22,3 +22,6 @@ geocode.geocodeAddress(argv.address, (errorMessage, results) => {
 		console.log(JSON.stringify(results, undefined, 2));
 	}
 });
+
+// f974596b02271d0dc0041b49d6c1ef51
+// https://api.darksky.net/forecast/f974596b02271d0dc0041b49d6c1ef51/37.8267,-122.4233
