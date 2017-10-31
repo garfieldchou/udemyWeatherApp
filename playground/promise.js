@@ -10,7 +10,7 @@ var asyncAdd = (a ,b) => {
 	});
 };
 
-asyncAdd(5, 7).then((res) => {
+asyncAdd(5, '7').then((res) => {
 	console.log('Result: ', res);
 	return asyncAdd(res, 33);
 }, (errorMessage) => {
